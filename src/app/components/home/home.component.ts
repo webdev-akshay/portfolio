@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 import { AboutComponent } from '../about/about.component';
 import { ExperienceComponent } from '../experience/experience.component';
 import { RouterOutlet } from '@angular/router';
@@ -8,6 +8,7 @@ import { ToolsComponent } from "../tools/tools.component";
 import { ProjectsComponent } from "../projects/projects.component";
 import { ContactComponent } from "../contact/contact.component";
 import { FooterComponent } from "../footer/footer.component";
+declare var $: any; // Declare jQuery
 
 @Component({
   selector: 'app-home',
@@ -16,6 +17,8 @@ import { FooterComponent } from "../footer/footer.component";
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
-export class HomeComponent {
+export class HomeComponent{
+  constructor() { }
+
 
 }
