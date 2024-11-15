@@ -1,13 +1,11 @@
 .contact-section {
   .contact-info {
-    p {
-      a {
-        color: #1a1a1a;
+    p,a{
+        color: #FFF;
 
         &:hover {
-          color: #fff; // Add hover effect for contrast if needed
+          color: #ffbd39; // Add hover effect for contrast if needed
         }
-      }
     }
   }
 
@@ -62,4 +60,11 @@
   &:active {
     border-color: #000;
   }
+}
+
+.fa-paper-plane,
+.fa-signs-post,
+.fa-phone{
+  font-size: 30px;
+  color: #ffbd39;
 }
