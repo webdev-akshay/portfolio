@@ -56,7 +56,7 @@
 }
 
 .home-slider  {
-  height: 500px;
+  height: 400px;
   z-index: 0;
 }
 
@@ -137,9 +137,9 @@
   background: #ffbd39;
   color: #fff;
 }
-.home-slider {
-  position: relative;
-  height: 500px;
-  z-index: 0;
-}
 
+
+.bg_img{
+  background-image: url(/public/images/about.jpg);
+  background-size: cover;
+}
