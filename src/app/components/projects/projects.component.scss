@@ -1,150 +1,56 @@
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: rgba(255, 255, 255, 0.1);
+  margin: 10px auto;
+  border-radius: 15px;
+  h2{
+    font-weight: 900;
+    font-size: 26px;
+    color: #ffbd39;
+  }
+  
+.image{
+  margin:auto;
+  width: 97%;
+  }
+  img {
+      margin: 7px auto;
+      border-radius: 15px;
+      width: 100%;
+}
+span {
+  background-color: #dae1dc;
+  border-radius: 10px;
+  font-size: 17px;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding: 0px 8px 3px 8px;
+}
 
-.project {
-  width: 100%;
-  height: 285px;
-  margin-bottom: 30px;
-  position: relative;
-  z-index: 0;
+p {
+  font-size: 15px;
+  color: #FFF;
 }
-.project.img-2 {
-  height: 600px;
+button {
+  border-radius: 25px;
+  padding: 8px 15px;
+  width: 110px;
 }
-.project.img-2 .text {
-  max-width: 45%;
-  z-index: 1;
-}
-.project.img-2 .text h3 {
-  font-size: 22px;
-}
-.project.img-2 .text h3 a {
-  color: #fff;
-}
-.project.img-2 .text span {
-  color: rgba(255, 255, 255, 0.8);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-.project .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: "";
-  opacity: 0;
+
+.button1{
   background: #ffbd39;
-  z-index: -1;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.project .text {
-  max-width: 80%;
-  z-index: 1;
-  opacity: 0;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.project .text h3 {
-  font-size: 20px;
-}
-.project .text h3 a {
-  color: #fff;
-}
-.project .text span {
-  color: rgba(255, 255, 255, 0.8);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 12px;
+  border: 1px solid #ffbd39 !important;
+  color: #000 !important;
+  font-size: 14px;
   font-weight: 600;
 }
-.project:hover .overlay,
-.project:focus .overlay {
-  opacity: 0.9;
+.button2{
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    background: transparent !important;
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 600;
 }
-.project:hover .text,
-.project:focus .text {
-  opacity: 1;
-}
-
-.project {
-  width: 100%;
-  height: 285px;
-  margin-bottom: 30px;
-  position: relative;
-  z-index: 0;
-}
-.project.img-2 {
-  height: 600px;
-}
-.project.img-2 .text {
-  max-width: 45%;
-  z-index: 1;
-}
-.project.img-2 .text h3 {
-  font-size: 22px;
-}
-.project.img-2 .text h3 a {
-  color: #fff;
-}
-.project.img-2 .text span {
-  color: rgba(255, 255, 255, 0.8);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-.project .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: "";
-  opacity: 0;
-  background: #ffbd39;
-  z-index: -1;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.project .text {
-  max-width: 80%;
-  z-index: 1;
-  opacity: 0;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.project .text h3 {
-  font-size: 20px;
-}
-.project .text h3 a {
-  color: #fff;
-}
-.project .text span {
-  color: rgba(255, 255, 255, 0.8);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.project:hover .overlay,
-.project:focus .overlay {
-  opacity: 0.9;
-}
-.project:hover .text,
-.project:focus .text {
-  opacity: 1;
 }
