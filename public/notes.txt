@@ -1,1 +1,3 @@
-1. user can dowload resume
+1. user can dowload resume.
+2. When click on nav item then shoe perticular page.
+3. Add Light and Dark UI Functionality
