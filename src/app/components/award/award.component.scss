@@ -1,0 +1,70 @@
+@media (max-width: 1199.98px) {
+  .ftco-counter {
+    background-position: center center !important;
+  }
+}
+
+.ftco-counter {
+  .block-18 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #191919;
+    padding: 30px 20px;
+    border-radius: 5px;
+  }
+
+  .text {
+    strong.number {
+      font-weight: 700;
+      font-size: 30px;
+      color: #ffbd39;
+      display: block;
+    }
+
+    span {
+      display: block;
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+
+  .ftco-number {
+    display: block;
+    font-size: 72px;
+    font-weight: bold;
+    color: #ffbd39;
+  }
+
+  .ftco-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .counter-wrap {
+    @media (max-width: 767.98px) {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.ftco-hireme {
+  background: #ffbd39;
+  z-index: -1;
+
+  h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+
+    span {
+      color: #ffbd39;
+    }
+  }
+}
+
+.media {
+  display: flex;
+  align-items: flex-start;
+}

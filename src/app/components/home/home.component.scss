@@ -1,0 +1,145 @@
+
+
+.btn.btn-white {
+  background: #fff !important;
+  border: 1px solid #fff !important;
+  color: #000000 !important;
+}
+.btn.btn-white:hover {
+  border: 1px solid #000000;
+  background: #fff !important;
+  color: #fff;
+}
+
+ h1 {
+  font-size: 48px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+ p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+}
+ p strong {
+  font-weight: 700;
+}
+ p strong a {
+  color: #000000;
+}
+
+
+.hero h3.vr {
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: tb-lr;
+  writing-mode: vertical-lr;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  text-orientation: sideways;
+  text-align: center;
+  text-orientation: sideways;
+  margin: 0rem;
+  position: absolute;
+  top: 0;
+  left: 4em;
+  height: 100%;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-size: 16px;
+  z-index: 1;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.home-slider  {
+  height: 400px;
+  z-index: 0;
+}
+
+.home-slider  .subheading {
+  color: red;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffbd39;
+}
+.home-slider .text {
+  position: relative;
+  z-index: 1;
+}
+.home-slider  h1 {
+  font-size: 60px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 800;
+}
+.home-slider  h1 span {
+  font-weight: 800;
+  color: #ffbd39;
+}
+.home-slider  h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.home-slider  p {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+}
+.home-slider  .btn-custom {
+  border: 1px solid #ffbd39;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+ h1 {
+  font-size: 48px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+ p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+}
+ p strong {
+  font-weight: 700;
+}
+ p strong a {
+  color: #000000;
+}
+.btn.btn-white {
+  background: #fff !important;
+  border: 1px solid #fff !important;
+  color: #000000 !important;
+}
+.btn.btn-white:hover {
+  border: 1px solid #000000;
+  background: #fff !important;
+  color: #fff;
+}
+.btn.btn-white.btn-outline-white {
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  background: transparent !important;
+  color: #fff !important;
+}
+.btn.btn-white.btn-outline-white:hover {
+  border: 1px solid transparent;
+  background: #ffbd39;
+  color: #fff;
+}
+
+
+.bg_img{
+  background-image: url(/public/images/about.jpg);
+  background-size: cover;
+}

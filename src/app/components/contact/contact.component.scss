@@ -1,0 +1,70 @@
+.contact-section {
+  .contact-info {
+    p,a{
+        color: #FFF;
+
+        &:hover {
+          color: #ffbd39; // Add hover effect for contrast if needed
+        }
+    }
+  }
+
+  .box {
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+
+    .icon {
+      width: 100px;
+      height: 100px;
+      background: rgba(255, 255, 255, 0.1);
+      margin: 0 auto 2em;
+      border-radius: 50%;
+
+      span {
+        color: #ffbd39;
+        font-size: 30px;
+      }
+    }
+
+    h3 {
+      font-size: 17px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .img {
+    width: 100%;
+    background-position: top center;
+  }
+}
+
+.bg-light {
+  background: #f8f9fa !important;
+}
+
+.form-control {
+  height: 52px !important;
+  background: #fff !important;
+  color: #000 !important;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: none !important;
+
+  &:focus,
+  &:active {
+    border-color: #000;
+  }
+}
+
+.fa-paper-plane,
+.fa-signs-post,
+.fa-phone{
+  font-size: 30px;
+  color: #ffbd39;
+}

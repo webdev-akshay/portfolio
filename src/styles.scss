@@ -1,0 +1,200 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background: #000;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #999;
+  text-align: left;
+}
+
+body.menu-show {
+  overflow: hidden;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  transition: 0.3s;
+  color: #ffbd39;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #ffbd39;
+}
+
+h1, h2, h3, h4, h5 {
+  line-height: 1.5;
+  color: white;
+  font-weight: 400;
+}
+
+.text-primary {
+  color: #ffbd39 !important;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 40px;
+  box-shadow: 0 24px 36px -11px rgba(0, 0, 0, 0.09);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+  outline: none;
+}
+
+.btn.btn-primary, .btn.btn-primary:hover {
+  background: #ffbd39;
+  border: 1px solid #ffbd39 !important;
+  color: #000 !important;
+}
+
+.btn.btn-secondary, .btn.btn-secondary:hover {
+  background: #a0f669 !important;
+  border: 1px solid #a0f669 !important;
+}
+
+.progress-wrap {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.progress-wrap h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.progress {
+  height: 10px;
+  background: #1a1a1a;
+}
+
+.progress-bar {
+  background: #ffbd39;
+  box-shadow: none;
+  font-size: 12px;
+  color: #000;
+  font-weight: 600;
+  border-radius: 2px;
+  position: relative;
+}
+
+.progress-bar:after {
+  position: absolute;
+  top: -2px;
+  right: 0;
+  width: 34px;
+  height: 34px;
+  content: "";
+  background: #ffbd39;
+  border-radius: 2px;
+  opacity: 0;
+}
+
+.progress-bar span {
+  position: absolute;
+  top: -38px;
+  right: 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.ftco-hireme {
+  background: #ffbd39;
+  z-index: -1;
+}
+
+.ftco-hireme h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.ftco-hireme h2 span {
+  color: #ffbd39;
+}
+
+.heading-section {
+  position: relative;
+}
+
+.heading-section .subheading {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 3px;
+}
+
+.heading-section h1.big {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 7vw;
+  color: rgba(255, 255, 255, 0.1);
+  z-index: -1;
+  font-weight: 900;
+}
+
+.heading-section h1.big.big-2 {
+  right: 0;
+}
+
+.heading-section h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.heading-section h2 span {
+  font-weight: 400;
+}
+
+.heading-section.heading-section-white .subheading {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.heading-section.heading-section-white h2,
+.heading-section.heading-section-white p {
+  color: #fff;
+}
+
+#section-counter {
+  position: relative;
+  z-index: 0;
+}
+
+.block-9 .form-control {
+  outline: none !important;
+  box-shadow: none !important;
+  font-size: 15px;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
