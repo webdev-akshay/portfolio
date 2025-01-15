@@ -12,7 +12,9 @@ a{
     color: #ffbd39;
     line-height: 24px;
   }
-  
+  .card-body{
+    position: relative;
+  }
 .image{
   margin:auto;
   width: 97%;
@@ -65,4 +67,5 @@ button {
         
       }
 }
+
 }
