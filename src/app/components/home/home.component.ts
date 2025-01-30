@@ -5,7 +5,6 @@ import { RouterOutlet } from '@angular/router';
 import { SkillsComponent } from "../skills/skills.component";
 import { ProjectsComponent } from "../projects/projects.component";
 import { ContactComponent } from "../contact/contact.component";
-declare var $: any; // Declare jQuery
 
 @Component({
   selector: 'app-home',
