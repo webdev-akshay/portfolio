@@ -14,7 +14,7 @@ export class NavbarComponent {
   // Scroll event listener to check the scroll position
   @HostListener('window:scroll', ['$event'])
   onWindowScroll() {
-    const sections = ['home','  about', 'experience', 'services', 'skills', 'projects', 'contact'];
+    const sections = ['home','about', 'experience', 'services', 'skills', 'projects', 'contact'];
 
     // Get the scroll position
     const scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;

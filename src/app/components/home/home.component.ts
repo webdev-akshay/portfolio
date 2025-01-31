@@ -6,6 +6,7 @@ import { SkillsComponent } from "../skills/skills.component";
 import { ProjectsComponent } from "../projects/projects.component";
 import { ContactComponent } from "../contact/contact.component";
 
+
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -14,7 +15,8 @@ import { ContactComponent } from "../contact/contact.component";
   styleUrl: './home.component.scss'
 })
 export class HomeComponent{
-  constructor() { }
 
+
+  constructor() { }
 
 }
