@@ -18,4 +18,25 @@ import { ContactComponent } from './components/contact/contact.component';
 })
 export class AppComponent {
   title = 'portfolio';
+  activeSection: string = 'home';
+
+  ngOnInit() {
+    this.observeSections();
+  }
+
+  observeSections() {
+    const sections = document.querySelectorAll('section');
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            this.activeSection = entry.target.id;
+          }
+        });
+      },
+      { threshold: 0.5 } // Adjust threshold to control when highlighting occurs
+    );
+
+    sections.forEach((section) => observer.observe(section));
+  }
 }
