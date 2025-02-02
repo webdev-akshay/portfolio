@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component ,Inject, PLATFORM_ID} from '@angular/core';
 import { RouterModule, RouterOutlet } from '@angular/router';
+import { isPlatformBrowser } from '@angular/common';
 import { NavbarComponent } from "./components/navbar/navbar.component";
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
@@ -20,8 +21,12 @@ export class AppComponent {
   title = 'portfolio';
   activeSection: string = 'home';
 
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+
   ngOnInit() {
+    if (isPlatformBrowser(this.platformId)) {
     this.observeSections();
+    }
   }
 
   observeSections() {
