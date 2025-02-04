@@ -127,7 +127,9 @@ ul{
     background: rgba(255, 255, 255, 0.1);
     margin:auto;
     border-radius: 50%;
-   
+    &:hover{
+      background: #ffbd39;
+    }
     a{
       color: #FFF;
       text-decoration: none;
@@ -136,7 +138,11 @@ ul{
 }
 
 }
-
+.fa-twitter:before,
+.fa-linkedin:before,
+.fa-github:before{
+  font-size: 21px;
+}
 nav ul li.active a {
   visibility: visible;
   -webkit-transform: scaleX(1);
