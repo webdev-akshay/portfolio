@@ -42,4 +42,11 @@
     text-transform: uppercase;
     color: #FFF;
   background: rgba(255, 255, 255, 0.1);
+  .card-body{
+    span{
+      display: flex;
+      align-items: end;
+      justify-content: center;
+    }
+  }
 }
